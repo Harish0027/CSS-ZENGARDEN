@@ -1,0 +1,131 @@
+*{
+    padding: 0px;
+    margin:0px;  
+}
+.head-container{
+    height:75px;
+    background-color: purple;
+    display: flex;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width:100%;
+}
+.head-container h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-right:250px;
+    font-size: 35px;
+}
+.head-container a{
+    text-decoration: none;
+    color: white;
+    padding-left: 25px; 
+    font-size: 17px;
+    font-weight: bold;
+}
+.about{
+    padding-top: 25px;
+    padding-left: 25px;
+    border-top: 2px solid white ;
+    background-color: purple;
+   
+}
+.about p{
+    font-size:20px;
+
+}
+.award {
+    border-top: 2px solid white ;
+    background-color:purple ;
+    padding-left: 25px; 
+    padding-top: 25px; 
+}
+.award-container{
+    background-color:purple;
+    display: flex;
+    justify-content: space-evenly;
+}
+.award table{
+    background-color: purple;
+}
+#event {
+   height:300px;
+   background-color: white;
+   color: purple;
+}
+#event h4{
+  font-size: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#event table{
+    padding-top: 45px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#event table td {
+    padding-left: 10px;
+}
+h1{
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+blockquote{
+    background-color: purple;
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.apply-button{
+    height:40px;
+    border-radius: 25px;
+    border:2px solid black;
+    color: purple;
+    width: 50%;
+    background-color: black;
+    cursor: pointer;
+}
+.apply-button:hover{
+    color: black;
+    background-color: purple;
+}
+.award p{
+    border-bottom: 2px solid white;
+}
+#images{
+    background-color: aqua;
+    height:350px;
+}
+#images h2{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.image-container{
+    padding-top: 25px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+img{
+    border: 2px solid white;
+    border-radius: 25px;
+   height:250px;
+}
+#videos{
+   justify-content: center;
+    text-align: center;
+    align-items: center;
+}
